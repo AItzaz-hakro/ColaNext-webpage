@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Regular.ttf);
+}
+body{
+   
+   background-image: url(https://colanext.com/wp-content/uploads/2020/06/Cola-Slider-compressor.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+body img{
+    display: flex;
+    width: 100%;
+    /* z-index: -1; */
+}
+header{
+    display: flex;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 3;
+    width: 100%;
+    height: 4rem;
+    background-color: red;
+    overflow: visible;
+    position: sticky;
+}
+header ul{
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    
+    font-family: Poppins;
+    color: white;
+    /* display: inline-block; */
+    list-style-type: none;
+    
+}
+header ul li{
+    justify-content: center;
+   display: inline-block;
+   margin-left: 4rem;
+   
+}
+header ul li img{
+    width: 80%;
+    z-index: 5;
+    display: flex;
+    
+    justify-content: center;
+   display: inline-block;
+   
+}
+.Container{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+
+    
+}
+.child{
+    background-color: transparent;
+    width: 20rem;
+    height: 8rem;
+}
+.child>img{
+    width: 100%;
+}
+
