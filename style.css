@@ -3,11 +3,21 @@
     background-color: #db0000 !important;
 }
 .my-nav  img{
+    position: relative;
+   
+    overflow:visible;
     display: flex;
-    top: 0px !important;
+    top: 40px !important;
    margin-left: 20px;
    margin-right: 100px;
 }
+.my-nav  img:hover{
+  transform: rotateZ(360deg);
+  transition-duration: 0.5s;
+}
+.my-nav  button{
+    top: 0px;
+} 
 .my-nav ul{
     display: flex;
     float: right;
