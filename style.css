@@ -1,0 +1,12 @@
+html{
+   /* scroll-behavior: smooth; */
+}
+.navvbar{
+    background-color: #db0000 !important;
+    font-family: sans-serif !important;
+}
+.nav-link{
+    margin-left: 1rem !important;
+    font-size: 1.rem !important; 
+    color: white !important;
+}
