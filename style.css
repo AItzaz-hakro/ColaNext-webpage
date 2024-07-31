@@ -1,12 +1,33 @@
-html{
-   /* scroll-behavior: smooth; */
+html {
+    /* scroll-behavior: smooth; */
 }
-.navvbar{
+
+.navvbar {
     background-color: #db0000 !important;
     font-family: sans-serif !important;
+    height: 4rem !important;
+    overflow: visible;
 }
-.nav-link{
+
+.nav-link {
     margin-left: 1rem !important;
-    font-size: 1.rem !important; 
+    font-size: 1rem !important;
     color: white !important;
+}
+
+.navbar-image {
+    
+    position: relative;
+    top: 2.3rem !important;
+    z-index: 3;
+    color: white;
+    display: flex;
+
+  
+}
+.navbar-image:hover{
+
+      transform: rotateZ(359deg);
+    transition-duration: 0.5sec;
+    /* transition-behavior: smooth; */
 }
